@@ -512,6 +512,42 @@ position: relative;
     text-align: center;
 }
 
+.cta_button{
+  display: block;
+  border: 2px solid #8AE1FF;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+  text-decoration: none;
+  color: #8AE1FF;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 30px;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.cta_button:hover{
+  background-color: #8AE1FF;
+  color: white;
+}
+
+/* Pattern styles */
+.first_main{
+  displaY:flex;
+  flex-direction:column;
+  flex-flow: center;
+  align-content: center
+}
+
+.pitch_message{
+  margin: 5px;
+  width: 30%;
+  display: flex;
+  align-self: center;
+}
+
+
 /*A partir de 768 pixeles habra un cambio de estilos*/
 @media screen and (min-width: 768px){
     .menu{
